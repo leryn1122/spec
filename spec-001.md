@@ -71,6 +71,7 @@ It MUST be a short code, matching the regex pattern `^(cpu|(gpu|npu)-[a-z0-9]{1,
   - It MUST be fixed value `cpu`.
 - Type `GPU`: The server equipped with GPU devices.
   - It MUST be a `gpu-` prefixed lowercased GPU product code given by GPU device manufacturer.
+  - It MUST NOT be determined by GPU allocation, e.g. single card, MIG, vGPU.
 
   For examples:
   - `gpu-a100` for NVIDIA A100
