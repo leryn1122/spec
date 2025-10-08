@@ -122,15 +122,14 @@ It MAY be the one of the following:
 
 ### Server
 
-Naming Format:
+**Naming Format**
 
 Server instance name MUST be in the form of FQDN:
 
-> \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.ecs.example.com
->
-> \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.bms.example.com
->
-> \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.vmh.example.com
+- \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.ecs.example.com
+- \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.bms.example.com
+- \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.vmh.example.com
+- \<CSP>-\<Region>-\<Product>-\<Name>-\<Env>.k8s.example.com
 
 Components:
 - CSP: Cloud Service Provider in Section 1
