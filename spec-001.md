@@ -86,7 +86,7 @@ It MUST be a short code, matching the regex pattern `^(cpu|(gpu|npu)-[a-z0-9]{1,
 
 ### Deployment Environment
 
-***Deployment Environment***, usually called Environment, is the environment where the applications and services deploy through the developing stages. It varies on the entriprise development mode.
+***Deployment Environment***, usually called Environment, is the environment where the applications and services deploy through the developing stages. It varies from the entriprise development mode.
 
 **Naming Format**
 
@@ -100,12 +100,13 @@ It MUST be the enumerated code, matching the regex pattern `^(cpu|(gpu|npu)-[a-z
 
 ### Server Suffix
 
-Server suffix is the unique identifier for this specific server
+Server suffix is the unique identifier for this specific server.
+
 It MAY be the one of the following:
-- Using serial number.
-  - Serial number MUST start at 1
-  - Left pading with 0 to 3 digits
-  - Serial numbers greater than 999 preserve actual digits
+- Using sequence number:
+  - Sequence number MUST start at 1 and succeeds in sequence.
+  - Left pading with 0 to 3 digits.
+  - Sequence numbers greater than 999 are written in the actual digits.
   
   For examples:
   - `server-001` for the first server
@@ -116,7 +117,7 @@ It MAY be the one of the following:
   
   For examples:
   - `server-xxx-77-19` for `10.x.77.19`
-- Parts of system serial number.
+- Parts of machine serial number.
 
 ## Section 2: Naming Format
 
