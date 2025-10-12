@@ -2,7 +2,7 @@
 
 ## Version
 
-This is spec version 0.1.0.
+This is spec version 0.1.1.
 
 ## Notational Conventions
 
@@ -32,6 +32,8 @@ The infrastructure naming conventions define:
 
 ***Region*** is the name or short name of the geographic location where the infrastructure instances are located, given by Cloud Provider.
 It SHALL be disambiguated from the available zones.
+
+For the on-premise data centers, servers, clusters, those are NOT provided by any Cloud Provider, the provider MUST be marked as the fixed value `onp` for *On-Premises*.
 
 **Naming Format**
 - CSP MUST be a short code, matching the regex pattern `^[a-z][a-z0-9]{1,4}$`.
