@@ -142,3 +142,23 @@ Components:
 For examples:
   - `aws-ua-east-1-oa-gpu-a800-prod-001.ecs.example.com`
   - `hwc-shanghai-fin-cpu-dev-214-29.bms.example.com`
+
+## Appendix
+
+### Appendix A 
+
+Abbreviations for cloud productions
+
+| Abbr. | Production |
+|-------|------------|
+| bms   | Bare Metal Server |
+| cr    | Contaienr Registry |
+| dc    | Direct Connect |
+| dcg   | Direct Connect Gateway |
+| ecs   | Elasitc Cloud Server |
+| lb    | Load Balancer |
+| pl    | Private Link |
+| rtb   | Route Table |
+| sg    | Security Group |
+| vmh   | Virtual Machine Host |
+| vpc   | VPC (Virtual Private Cloud) |
