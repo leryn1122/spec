@@ -2,7 +2,7 @@
 
 ## Version
 
-This is spec version 0.1.1.
+This is spec version 0.1.2.
 
 ## Notational Conventions
 
@@ -123,16 +123,16 @@ It MAY be the one of the following:
 
 ## Section 2: Naming Format
 
-### Server
+### Server / Host
 
 **Naming Format**
 
-Server instance name MUST be in the form of FQDN:
+Server / host instance name MUST be in the form of FQDN:
 
 - \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.ecs.example.com
 - \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.bms.example.com
 - \<CSP>-\<Region>-\<Product>-\<Name>-\<Type>-\<Env>-\<Suffix>.vmh.example.com
-- \<CSP>-\<Region>-\<Product>-\<Name>-\<Env>.k8s.example.com
+- \<CSP>-\<Region>-\<Product>-\<Name>-\<Env>-k8s.k8s.example.com
 
 Components:
 - CSP: Cloud Service Provider in Section 1
